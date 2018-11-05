@@ -36,6 +36,11 @@
   <!-- Custom styles for this template -->
   <link href="css/index.min.css" rel="stylesheet">
 
+  <!-- Kyash Button -->
+  <script> window.kyash = (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0], t = window.kyash || {}; if (d.getElementById(id)) return t;
+      js = d.createElement(s); js.id = id; js.src = "https://satetsu888.github.io/kyash-button/dest/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function (f) { t._e.push(f); }; return t;
+    }(document, "script", "kyash-wjs"));</script>
 
 </head>
 
@@ -81,8 +86,7 @@
       <div class="badges">
         <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.jonghelper"><img src="img/google-play-badge.svg"
             alt=""></a>
-        <a class="badge-link" href="https://itunes.apple.com/jp/app/id1440015352"><img src="img/app-store-badge.svg"
-            alt=""></a>
+        <a class="badge-link" href="https://itunes.apple.com/jp/app/id1440015352"><img src="img/app-store-badge.svg" alt=""></a>
       </div>
     </div>
   </header>
@@ -244,8 +248,7 @@
           <div class="badges">
             <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.jonghelper"><img src="img/google-play-badge.svg"
                 alt=""></a>
-            <a class="badge-link" href="https://itunes.apple.com/jp/app/id1440015352"><img src="img/app-store-badge.svg"
-                alt=""></a>
+            <a class="badge-link" href="https://itunes.apple.com/jp/app/id1440015352"><img src="img/app-store-badge.svg" alt=""></a>
           </div>
         </div>
       </div>
@@ -278,10 +281,14 @@
           <hr class="my-4">
           <p class="mb-5">
             JongHelper開発チームを応援してくれる方、寄付をお願いします。
-            <a href="https://kyash.co/">Kyash</a>経由で受け付けております。
+            <a href="https://kyash.co/">Kyash</a>経由で受け付けております。(ID: jonghelper)
           </p>
+          <p>スマートフォンの方は以下のボタンから</p>
+          <a class="kyash-button" data-user-id="8968384973789475629">Kyash</a>
+          <p></p>
         </div>
       </div>
+      <p>PCの方はこちらのQRコードをKyashアプリの入った携帯で読み込んでください</p>
       <div class="col mr-auto text-center">
         <img src="img/kyashqr.jpg" class="mx-auto" alt="">
       </div>
